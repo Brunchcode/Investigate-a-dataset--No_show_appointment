@@ -29,15 +29,30 @@ Exploring the data gave us some insight into the data as we compared some of the
 
 Variables such as Gender, Age, Scholarship, Hypertension, Diabetes, Alcoholism, and Handcap are the independent variables and No-show is the dependent variable.
 
-From the analysis, Females appear to either need to see a doctor more frequently or take better care of their health overall. As we can see from Gender noshow/show plot out of the 88207 patients who showed up, about 57245 of them are women and 30962 are men.
+From the analysis: 
 
-further analysis of our findings using proportions as shown in the plot above the Proportional representation of the Gender show / no show Plot shows that even though the number of females that showed up are higher than the males their proportions are almost the same
+1. Females appear to either need to see a doctor more frequently or take better care of their health overall
 
-- Proportion of female patients that showed up for their appointment: 0.79
-- Proportion of male patients that showed up for their appointment: 0.80
+- Out of 71839 appointments made by females, 14594 were missed with the ratio of 20%.
+- Out of 38685 appointments made by males, 7725 were missed with the ratio of 20%.
+- 79.6% Proportion of female patients showed up for their appointment
+- 80.0% Proportion of male patients showed up for their appointment
 
-- Proportion of female patients that did not show up for their appointment: 0.20
-- Proportion of male patients that did not show up for their appointment: 0.20
+2. The location of the hospitals affects the no show and show rating for appointments
+
+- JARDIM CAMBURI has about 7717 appointments but 19% of patients did not show up for appointments
+- MARIA ORTIZ has about 5805 appointments but 14.3% of patients did not show up for appointments
+- RESISTÊNCIA has about 4431 appointments but 10.9% of patients did not show up for appointments
+- PARQUE INDUSTRIAL had the lowest appointment made which was 1 but the patient showed up for their appointment
+
+3. We can infer from our analysis of the medical conditions that:
+
+- Patients with diabetes or hypertension have a lower appointment no-show percentage than those without the illness.
+- Alcoholism has little impact on the show rate.
+
+*Gender, Neighborhood, and medical conditions like hypertension are some of the top variables that would assist us in determining if the patient who has scheduled an appointment would show up or not.*
+
+
 
 ### Limitations on the project
 - The Handcap variable that is supposed to be boolean, happen to have multiple input values (0 to 4) and the SMS_received variables that is suppose to have a multiple input has a boolean data. An explanation on this discripancies could help us to have a good insight into the data.
