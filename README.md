@@ -12,12 +12,17 @@ Some of the questions to answer from the analysis
 - What's the correlation between age and showing up for appointments. Do younger population show up for appointment?
 - Does sending an SMS reminder help to reduce the no-shows?
 
-Preliminary Data Wrangling
-For the analysis, I performed initial data wrangling on the dataset to prepare it for analysis by:
+### Preliminary Data Wrangling
+The following actions have to be performed on the dataset to prepare it for analysis:
 
-Confirming the status of the dataset in terms of datatype, number of missing data, and duplicated column.
-I cleaned the data by changing the datatype and drop missing data where necessary
-Summary of Findings
+- The column names have to be modified so we can utilize and address with ease e.g No-show changed to no_show
+- Checked for null and duplicated rows
+- dropped the '-1' row on the age column as it is assumed to be an error
+- dropped the the columns PatientId and AppointmentID since they appear to be randomly produced integers by a computer.
+- converted the ScheduledDay and AppointmentDay to date-time format
+- converted the following columns (Scholarship,Hypertension,Diabetes,Alcoholism,SMS_received and No-show) to bool since they represent True or False
+
+### Summary of Findings
 From the analysis, below are some of the findings as related to the main features (No-show):
 
 Exploring the data gave us some insight into the data as we compared some of the variables to the No-show variable.
