@@ -29,9 +29,15 @@ Exploring the data gave us some insight into the data as we compared some of the
 
 Variables such as Gender, Age, Scholarship, Hypertension, Diabetes, Alcoholism, and Handcap are the independent variables and No-show is the dependent variable.
 
-From the analysis, we can see that variables such as Scholarship, Hypertension, Diabetes, and Alcoholism are not the variables that can be used to predict if a patient scheduled for appointment would show up or not. This is evident from the proportional on the percentage of the variables with no-show. In most of this proportion, patient with scholarship and didn't show up is greater than that of the without scholarship and didn't show up.
+From the analysis, Females appear to either need to see a doctor more frequently or take better care of their health overall. As we can see from Gender noshow/show plot out of the 88207 patients who showed up, about 57245 of them are women and 30962 are men.
 
-Also, Having limitations such as Hypertension, diabetes, alcoholism, and handicap is not a factor that can be used for the prediction
+further analysis of our findings using proportions as shown in the plot above the Proportional representation of the Gender show / no show Plot shows that even though the number of females that showed up are higher than the males their proportions are almost the same
+
+- Proportion of female patients that showed up for their appointment: 0.79
+- Proportion of male patients that showed up for their appointment: 0.80
+
+- Proportion of female patients that did not show up for their appointment: 0.20
+- Proportion of male patients that did not show up for their appointment: 0.20
 
 ### Limitations on the project
 - The Handcap variable that is supposed to be boolean, happen to have multiple input values (0 to 4) and the SMS_received variables that is suppose to have a multiple input has a boolean data. An explanation on this discripancies could help us to have a good insight into the data.
