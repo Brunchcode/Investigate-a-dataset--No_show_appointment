@@ -6,9 +6,11 @@ This dataset collects information from 110,527 medical appointments in Brazil an
 
 Some of the questions to answer from the analysis
 
-What Age group didn't show up the most?
-Are many of the patient on Scholarship?
-What factors are important for us to know in order to predict if a patient will show up for their scheduled appointment?
+- Do females value their health more than males do, based on the No-show appointments Dataset?
+- Does the hospital's location affect whether patients show up for their appointments?
+- Do patients' health conditions affect whether they show up for appointments? What proportion of patients with medical issues keep their appointments or fail to show up?
+- What's the correlation between age and showing up for appointments. Do younger population show up for appointment?
+- Does sending an SMS reminder help to reduce the no-shows?
 
 Preliminary Data Wrangling
 For the analysis, I performed initial data wrangling on the dataset to prepare it for analysis by:
